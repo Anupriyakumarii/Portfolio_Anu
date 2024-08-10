@@ -3,5 +3,19 @@
   align-items: center;
   flex-direction: column;
   gap: 35px;
-  padding-top: 120px;
+  padding-top: 250px;
+}
+.intro{
+  font-size:80px;
+  font-weight:1000;
+}
+
+.profession{
+  font-size: 60px;
+  font-weight: 500;
+}
+
+.about{
+  font-size: 25px;
+  font-weight: 100;
 }
