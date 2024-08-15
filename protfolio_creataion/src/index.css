@@ -10,7 +10,10 @@ body{
   height: 100vh;
   color: white;
   font-family: 'outfit';
-  background: rgb(6,0,0);
-  background: radial-gradient(circle, rgba(6,0,0,1) 0%, rgba(9,9,9,1) 77%, rgba(87,61,159,1) 100%);
-  
+  /* background: rgb(6,0,0);
+  background: radial-gradient(circle, rgba(6,0,0,1) 0%, rgba(9,9,9,1) 77%, rgba(87,61,159,1) 100%); */
+  background-color: #111927;
+    background-image: 
+        radial-gradient(at 47% 33%, hsl(160.00, 70%, 11%) 0, transparent 59%), 
+        radial-gradient(at 82% 65%, hsl(273.78, 62%, 39%) 0, transparent 55%);
 }
