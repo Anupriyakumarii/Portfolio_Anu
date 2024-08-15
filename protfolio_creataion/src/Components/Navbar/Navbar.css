@@ -16,6 +16,10 @@
   border: 1px solid rgba(255, 255, 255, 0.125);
 } 
 
+.navbar:hover {
+  transition: 1s ease-in-out;
+  background: #000004ae;
+}
 
 
 .nav_menu{
