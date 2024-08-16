@@ -2,18 +2,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 20px 670px;
-  width: 65vh;
+  margin: 30px 570px;
+  width: 80vh;
   height: 2vh;
   font-size: 20px;
   gap: 60px;
   padding: 20px;
-  border-radius: 30px;
+  border-radius: 25px;
   backdrop-filter: blur(50px) saturate(173%);
   -webkit-backdrop-filter: blur(25px) saturate(173%);
-  background-color: rgba(17, 25, 40, 0.83);
+  background-color: rgba(17, 25, 40, 0.93);
   /* border-radius: 12px; */
   border: 1px solid rgba(255, 255, 255, 0.125);
+  
 } 
 
 .navbar:hover {
