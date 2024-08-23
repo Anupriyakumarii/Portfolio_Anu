@@ -33,11 +33,11 @@
   color: #f6faf5b1;
   font-family: Roboto, Arial, sans-serif;
   height: 90vmin;
-  left: 50%;
+  left: 53%;
   position: absolute;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 90vmin;
+  width: 100vmin;
   margin-top: 5%;
 }
 .animated-title > div {
