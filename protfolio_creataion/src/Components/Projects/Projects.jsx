@@ -3,8 +3,8 @@ import "./Projects.css";
 
 const Projects = () => {
   return (
-    <div>
-      <h1>Projects</h1>
+    <div className="glitch">
+      <h1 className='heading'>Projects</h1>
     </div>
   )
 }
