@@ -3,7 +3,7 @@ import "./About.css";
 function About() {
   return (
     <>
-      <div className="container">
+      <section className="container" id="about">
         <div className="glitch">
           <h1>ABOUT ME</h1>
         </div>
@@ -15,7 +15,7 @@ function About() {
               Over 2 years of experience as a Frontend Developer at Tata Consultancy Services (TCS), with a successful project deployment at Zebra Technologies which is a client location of TCS. Specialize in JavaScript, React, UI/UX design and CSS Framework.Demonstrated proficiency in developing high-performing, responsive user interfaces, optimizing code, and fostering effective collaboration in agile teams.
           </p> 
         </div>
-      </div>
+      </section>
     </>
   );
 }

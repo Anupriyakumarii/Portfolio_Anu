@@ -17,3 +17,6 @@ body{
         radial-gradient(at 47% 33%, hsl(160.00, 70%, 11%) 0, transparent 59%), 
         radial-gradient(at 82% 65%, hsl(273.78, 62%, 39%) 0, transparent 55%);
 }
+html{
+  scroll-behavior: smooth;
+}
