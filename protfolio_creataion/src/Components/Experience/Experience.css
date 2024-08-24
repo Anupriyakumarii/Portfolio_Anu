@@ -5,6 +5,10 @@
   font-size:50px;
   font-weight:1000;
 } */
+ .heading{
+  align-items: center;
+  padding-left: 400px;
+ }
 .glitch{
   position: relative;
     text-transform: uppercase;

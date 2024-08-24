@@ -43,8 +43,8 @@ const Experience = () => {
       icon: schoolIcon,
       date: '2018-2022',
       title: 'Bharati Vidyapeeth college of Engineering for Women,Pune',
-      subtitle: '3rd Rank Holder in my course.In addition to my undergraduate degree, I pursued an honors program in data science. This specialized program deepened my understanding of data analysis and equipped me with the practical skills to extract valuable insights from complex datasets.',
-      desc: 'Electronics & Telecommunication',
+      subtitle: 'Electronics & Telecommunication',
+      desc: '3rd Rank Holder in my course.In addition to my undergraduate degree, I pursued an honors program in data science. This specialized program deepened my understanding of data analysis and equipped me with the practical skills to extract valuable insights from complex datasets.',
     },
    
     { icon: starIcon },
@@ -54,7 +54,7 @@ const Experience = () => {
     
     <div className="App">
       <div className="glitch">
-         <h1>Experience</h1>
+         <h1 className='heading'>Experience</h1>
     </div>
       <VerticalTimeline>
         {timeline.map((t, i) => {
