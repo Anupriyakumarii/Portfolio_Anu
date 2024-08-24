@@ -25,3 +25,5 @@ const Hero = () => {
 };
 
 export default Hero;
+
+// please take a look around
