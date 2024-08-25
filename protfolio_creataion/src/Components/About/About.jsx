@@ -3,9 +3,10 @@ import "./About.css";
 function About() {
   return (
     <>
-      <section className="container" id="about">
+      <section className="container" id="About">
         <div className="glitch">
           <h1>ABOUT ME</h1>
+          {/* <a href="#About">ABOUT ME</a> */}
         </div>
         <div className="inner_card">
           <div className="image_scr">

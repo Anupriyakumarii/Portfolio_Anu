@@ -2,7 +2,7 @@ import React from 'react'
 import "./Projects.css";
 import ReactCardSlider from "react-card-slider-component";
 
-const slides = [
+const data = [
   {
     image: "https://picsum.photos/200/300",
     title: "This is a title",
@@ -27,24 +27,6 @@ const slides = [
     description: "This is a fourth description"
     // clickEvent: sliderClick
   },
-  {
-    image: "https://picsum.photos/200/300",
-    title: "This is a fifth title",
-    description: "This is a fifth description"
-    // clickEvent: sliderClick
-  },
-  {
-    image: "https://picsum.photos/800/700",
-    title: "This is a sixth title",
-    description: "This is a sixth description"
-    // clickEvent: sliderClick
-  },
-  {
-    image: "https://picsum.photos/800/900",
-    title: "This is a seventh title",
-    description: "This is a seventh description"
-    // clickEvent: sliderClick
-  }
 ];
 
 const Projects = () => {
