@@ -21,12 +21,6 @@ const data = [
     description: "This is a third description"
     // clickEvent: sliderClick
   },
-  {
-    image: "https://picsum.photos/500/400",
-    title: "This is a fourth title",
-    description: "This is a fourth description"
-    // clickEvent: sliderClick
-  },
 ];
 
 const Projects = () => {
