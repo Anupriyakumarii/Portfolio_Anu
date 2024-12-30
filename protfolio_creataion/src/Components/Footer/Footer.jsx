@@ -2,8 +2,8 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>
-      <h1>Footers</h1>
+    <div className="glitch">
+      <h1 className='heading'>Projects</h1>
     </div>
   )
 }
