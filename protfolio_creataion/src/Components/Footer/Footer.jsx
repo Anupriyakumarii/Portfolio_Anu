@@ -1,10 +1,14 @@
 import React from 'react'
+import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div>
-      <h1>Footers</h1>
+    <>
+    <div className="glitch">
+      <h1 className='heading'>Footer</h1>
     </div>
+    </>
+    
   )
 }
 
