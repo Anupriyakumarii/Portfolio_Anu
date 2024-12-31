@@ -14,3 +14,6 @@
   transition: all 0.25s ease-out;
   padding: 100px;
 }
+.glitch:hover {
+  text-shadow: -16px 6px 15px #ac6c12;
+}
