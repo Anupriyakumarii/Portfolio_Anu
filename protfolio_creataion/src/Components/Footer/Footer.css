@@ -1,0 +1,19 @@
+.footer_section {
+  background-color: rgb(131, 189, 210);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.container_one {
+  width: 50%;
+  height: 50%;
+  margin-top: 10%;
+  padding: 1%;
+}
+
+.social_icons {
+  display: flex;
+  margin-left: 75%;
+  justify-content: space-evenly;
+  font-size: larger;
+}
