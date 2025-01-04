@@ -4,9 +4,12 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <>
-    <div className="glitch">
-      <h1 className='heading'>Footer</h1>
-    </div>
+    <footer>
+      <div>
+        <h2>Get connected with us on social networks:</h2>
+        
+      </div>
+    </footer>
     </>
     
   )
