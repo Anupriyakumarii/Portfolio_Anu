@@ -10,12 +10,13 @@ body{
   height: 100vh;
   
   font-family: 'outfit';
+  background-color: #f9f9f9;
   /* background: rgb(6,0,0);
   background: radial-gradient(circle, rgba(6,0,0,1) 0%, rgba(9,9,9,1) 77%, rgba(87,61,159,1) 100%); */
-  background-color: #111927;
+  /* background-color: #111927;
     background-image: 
         radial-gradient(at 47% 33%, hsla(161, 71%, 11%, 0.897) 0, transparent 59%), 
-        radial-gradient(at 82% 65%, hsla(274, 59%, 60%, 0.745) 0, transparent 55%);
+        radial-gradient(at 82% 65%, hsla(274, 59%, 60%, 0.745) 0, transparent 55%); */
 }
 html{
   scroll-behavior: smooth;
