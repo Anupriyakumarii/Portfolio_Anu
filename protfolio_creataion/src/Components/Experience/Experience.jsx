@@ -63,6 +63,9 @@ const Experience = () => {
     <div className="App">
       <div className="glitch">
         <h1 className="heading">Experience</h1>
+        {/* <a href="#Experience" className="heading">
+          Experience
+        </a> */}
       </div>
       <VerticalTimeline>
         {timeline.map((t, i) => {
