@@ -21,18 +21,21 @@ function About() {
             <h2>👩‍💻 About Me</h2>
             <p>
               I’m a passionate <strong>Frontend Developer</strong> with over{" "}
-              <strong>2 years</strong> of experience at{" "}
-              <strong>Tata Consultancy Services (TCS)</strong>. I’ve
-              successfully delivered scalable solutions for clients like{" "}
-              <strong>Zebra Technologies</strong>.
+              <strong>2+ years</strong> of experience at{" "}
+              <strong>Tata Consultancy Services (TCS)</strong>,where I’ve
+              contributed to the successful delivery of scalable,
+              high-performance web applications for diverse clients.
             </p>
             <p>
-              My expertise lies in building <strong>responsive</strong>,{" "}
-              <strong>accessible</strong> user interfaces using{" "}
-              <strong>React</strong>, <strong>JavaScript</strong>, and modern{" "}
-              <strong>CSS frameworks</strong> like Tailwind and SASS. I thrive
-              in <strong>agile teams</strong>, where I contribute clean,
-              maintainable code and innovative UI/UX ideas.
+              My core strengths lie in developing <strong>responsive</strong>,{" "}
+              <strong>accessible</strong>, and <strong>user-centric</strong>{" "}
+              interfaces using <strong>React</strong>,{" "}
+              <strong>JavaScript</strong>, and modern{" "}
+              <strong>CSS frameworks</strong> like Tailwind CSS and SASS. I
+              excel in <strong>agile environments</strong>, consistently writing
+              clean, maintainable code and collaborating closely with{" "}
+              <strong>cross-functional teams</strong> to bring innovative{" "}
+              <strong>UI/UX solutions</strong> to life.
             </p>
             <p>
               🚀 Let's build fast, elegant, and user-friendly applications

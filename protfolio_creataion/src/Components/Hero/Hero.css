@@ -78,7 +78,7 @@ body, html {
 .secondary {
   background-color: transparent;
   border: 2px solid #ffffff;
-  color: #ffffff;
+  color: var(--text-color);
 }
 
 .secondary:hover {
