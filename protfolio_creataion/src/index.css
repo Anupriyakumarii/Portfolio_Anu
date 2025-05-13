@@ -1,6 +1,4 @@
 
-
-
 *{
   margin: 0;
   padding: 0;
@@ -20,4 +18,28 @@ body{
 }
 html{
   scroll-behavior: smooth;
+}
+
+:root {
+  --bg-color: #f9f9f9;
+  --bgg-color:#4e54c8;
+  --text-color: #1a1a1a;
+  --logo-color:#1a1a1a;
+  --accent-color: #4e54c8;
+  --hover-color: #3f89ff;
+  --card-bg: #ffffff;
+  --shadow-color: rgba(0, 0, 0, 0.08);
+  --aboutext-color:rgb(40, 225, 228);
+}
+
+[data-theme='dark'] {
+  --bg-color: #121212;
+  --bgg-color: #121212;
+  --text-color: #eaeaea;
+  --accent-color: #ffd700;
+  --logo-color: #ffd700;
+  --hover-color: #ffb400;
+  --card-bg: #1e1e1e;
+  --shadow-color: rgba(255, 255, 255, 0.05);
+  --aboutext-color:White;
 }

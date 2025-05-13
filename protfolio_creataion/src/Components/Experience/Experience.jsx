@@ -60,12 +60,9 @@ const Experience = () => {
   ];
 
   return (
-    <div className="App">
+    <div className="App" id="Experience">
       <div className="glitch">
-        <h1 className="heading">Experience</h1>
-        {/* <a href="#Experience" className="heading">
-          Experience
-        </a> */}
+        <h2 className="heading">💼 Experience</h2>
       </div>
       <VerticalTimeline>
         {timeline.map((t, i) => {
