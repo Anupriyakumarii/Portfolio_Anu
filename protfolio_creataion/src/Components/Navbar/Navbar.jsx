@@ -4,7 +4,7 @@ import { FaMoon, FaSun } from "react-icons/fa";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
 
   useEffect(() => {
     document.documentElement.setAttribute("data-theme", theme);
@@ -42,7 +42,7 @@ const Navbar = () => {
           <a href="#home">Home</a>
           <a href="#About">About</a>
           <a href="#Experience">Experience</a>
-          <a href="#Project">Projects</a>
+          <a href="#Projects">Projects</a>
           <a href="#Contact">Contact</a>
           <button className="theme-toggle" onClick={toggleTheme}>
             {theme === "light" ? <FaMoon /> : <FaSun />}

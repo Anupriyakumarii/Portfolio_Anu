@@ -1,34 +1,39 @@
-import React from 'react'
+import React from "react";
 import "./Projects.css";
-import ReactCardSlider from "react-card-slider-component";
-
-const data = [
-  {
-    image: "https://picsum.photos/200/300",
-    title: "This is a title",
-    description: "This is a description"
-    // clickEvent: sliderClick
-  },
-  {
-    image: "https://picsum.photos/600/500",
-    title: "This is a second title",
-    description: "This is a second description"
-    // clickEvent: sliderClick
-  },
- 
-];
+import { projects } from "../../data/projects.js";
 
 const Projects = () => {
   return (
-   <>
-    <div className="glitch">
-      <h1 className='heading'>Projects</h1>
-    </div>
-    
-    
+    <>
+      <section className="projects-section" id="Projects">
+        <h2 className="section-title">🚀 Projects</h2>
+        <div className="projects-grid">
+          {projects.map((project, index) => (
+            <div key={index} className="project-card">
+              <img
+                src={project.image}
+                alt={project.title}
+                className="project-image"
+              />
+              <div className="project-content">
+                <h3>{project.title}</h3>
+                <p>{project.description}</p>
+                <p className="tech-stack">Tech: {project.tech.join(", ")}</p>
+                <div className="project-links">
+                  <a href={project.demo} target="_blank">
+                    Live Demo
+                  </a>
+                  <a href={project.github} target="_blank">
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
     </>
-   
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;
