@@ -31,21 +31,91 @@ const Experience = () => {
       date: "2023 - Present",
       title: "Frontend Developer",
       subtitle: "Tata Consultancy services, Bangalore",
-      desc: "I’m a Front-End Developer with over two years of experience crafting responsive, high-performance web applications using modern technologies. I specialize in JavaScript, React, and CSS frameworks like Tailwind and SASS, with a strong focus on clean, maintainable code and intuitive user interfaces. My expertise spans building scalable components, integrating RESTful APIs, and optimizing UI performance. I’m passionate about creating seamless user experiences, collaborating across teams, and continuously improving through new challenges and learning opportunities.",
+      desc: (
+        <ul style={{ paddingLeft: "1.25rem", marginTop: "0.5rem" }}>
+          <li>
+            Developed responsive, high-performance web apps using React,
+            JavaScript, and modern CSS frameworks like Tailwind CSS and SASS.
+          </li>
+          <li>
+            Improved cross-device compatibility across 10+ applications by
+            implementing adaptive design strategies and leveraging CSS
+            utilities.
+          </li>
+          <li>
+            Optimized script loading performance—reduced wait queue time from
+            300ms to 4ms by lazy-loading non-critical CSS and eliminating
+            render-blocking elements.
+          </li>
+          <li>
+            Migrated 27% of legacy frontend codebase to modern React using
+            functional components, React Hooks, and enhanced state management.
+          </li>
+          <li>
+            Wrote unit tests using Jest to improve code reliability and
+            maintainability.
+          </li>
+          <li>
+            Integrated and optimized RESTful APIs with pagination, filtering,
+            and authentication, improving data flow and application performance.
+          </li>
+          <li>
+            Actively contributed to performance tuning, caching strategies, and
+            CI/CD integration for smoother deployments.
+          </li>
+        </ul>
+      ),
     },
     {
       icon: workIcon,
       date: "2022 - 2023",
       title: "Jr.Frontend Developer",
       subtitle: "Tata Consultancy services, Bangalore",
-      desc: "Developed responsive React UIs, optimized performance, and implemented Dark Mode for improved user experience. Collaborated with teams for efficient design and development processes, ensuring high-quality code and timely delivery.Expert in React,JavaScript,CSS Framework,RESTApi, React Native.",
+      desc: (
+        <ul style={{ paddingLeft: "1.25rem", marginTop: "0.5rem" }}>
+          <li>
+            Created and optimized 10+ responsive landing pages, improving
+            usability, accessibility, and increasing conversion rates by 30% for
+            the company and clients.
+          </li>
+          <li>
+            Debugged and resolved cross-browser compatibility issues and
+            JavaScript errors, reducing bug reports by 40% and ensuring
+            consistent performance across major browsers.
+          </li>
+          <li>
+            Maintained and optimized 20+ websites and forms, collaborating
+            closely with UX/UI and backend teams to enhance functionality,
+            speed, and user experience.
+          </li>
+        </ul>
+      ),
     },
     {
       icon: workIcon,
       date: "Sept-Dec 2020",
       title: "Software Trainee",
       subtitle: "Zensar Technologies, Pune",
-      desc: "While interning at Zensar, I contributed to a project that involved analyzing customer behavior data. Using Python, I developed a script to automate data extraction from our CRM system. I then employed SQL to clean and transform the data, preparing it for analysis. My work led to valuable insights that informed our marketing strategy.",
+      desc: (
+        <ul style={{ paddingLeft: "1.25rem", marginTop: "0.5rem" }}>
+          <li>
+            Contributed to a data analysis project focused on understanding
+            customer behavior and improving marketing strategy.
+          </li>
+          <li>
+            Developed Python scripts to automate data extraction from the CRM
+            system, improving data retrieval efficiency.
+          </li>
+          <li>
+            Used SQL to clean, transform, and structure raw data, ensuring
+            accuracy and consistency for downstream analysis.
+          </li>
+          <li>
+            Delivered insights that supported data-driven marketing decisions
+            and enhanced customer targeting strategies.
+          </li>
+        </ul>
+      ),
     },
 
     {
@@ -53,7 +123,18 @@ const Experience = () => {
       date: "2018-2022",
       title: "Bharati Vidyapeeth college of Engineering for Women,Pune",
       subtitle: "Electronics & Telecommunication",
-      desc: "3rd Rank Holder in my course.In addition to my undergraduate degree, I pursued an honors program in data science. This specialized program deepened my understanding of data analysis and equipped me with the practical skills to extract valuable insights from complex datasets.",
+      desc: (
+        <ul style={{ paddingLeft: "1.25rem", marginTop: "0.5rem" }}>
+          <li>Achieved 3rd rank in my undergraduate program.</li>
+          <li>
+            Completed an honors program in Data Science alongside my degree.
+          </li>
+          <li>
+            Gained practical skills in data analysis, transformation, and
+            insight generation from complex datasets.
+          </li>
+        </ul>
+      ),
     },
 
     { icon: starIcon },

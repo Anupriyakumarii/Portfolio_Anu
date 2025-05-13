@@ -3,7 +3,7 @@ export const projects = [
   {
     title: "Workflow Automation Builder",
     description:
-      "A drag-and-drop builder using React Flow, Hook Form, and custom node configuration.",
+      "Developed a drag-and-drop workflow builder leveraging React Flow for visual node interactions, React Hook Form for dynamic form control, and custom node configurations for flexible UI logic..",
     tech: ["React", "React Flow", "Hook Form", "Tailwind"],
     image: "/images/workflow_builder.png", // Adjust path as needed
     demo: "workflow-automation-builder.vercel.app",

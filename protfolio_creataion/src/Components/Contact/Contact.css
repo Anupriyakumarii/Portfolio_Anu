@@ -22,7 +22,7 @@
   padding: 4rem 2rem;
   /* background-color: #1f1f2e; */
   background-color: var(--bgg-color);
-  color: white;
+  color: var(--text-color);
   text-align: center;
 }
 
@@ -39,7 +39,7 @@
 
 .contact_section p {
   font-size: 1rem;
-  color: #ccc;
+  color: var(--text-color);
   margin-bottom: 2rem;
 }
 
@@ -54,7 +54,7 @@
 }
 
 .social_icons a {
-  color: white;
+  color: var(--text-color);
   transition: transform 0.3s, color 0.3s;
 }
 
