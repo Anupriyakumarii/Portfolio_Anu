@@ -1,154 +1,3 @@
-/* .hero{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  gap: 35px;
-  padding-top: 250px;
-}
-.intro{
-  font-size:80px;
-  font-weight:1000;
-}
-
-.profession{
-  font-size: 60px;
-  font-weight: 500;
-}
-
-.about{
-  font-size: 25px;
-  font-weight: 100;
-} */
-
-/* @keyframes showTopText {
-  0% { transform: translate3d(0, 100%, 0); }
-  40%, 60% { transform: translate3d(0, 50%, 0); }
-  100% { transform: translate3d(0, 0, 0); }
-}
-@keyframes showBottomText {
-  0% { transform: translate3d(0, -100%, 0); }
-  100% { transform: translate3d(0, 0, 0); }
-}
-.animated-title {
-  color: #f6faf5b1;
-  font-family: Roboto, Arial, sans-serif;
-  height: 90vmin;
-  left: 53%;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 100vmin;
-  margin-top: 5%;
-}
-.animated-title > div {
-  height: 50%;
-  overflow: hidden;
-  position: absolute;
-  width: 100%;
-
-}
-.animated-title > div div {
-  font-size: 10vmin;
-  padding: 3vmin 0;
-  position: absolute;
-}
-.animated-title > div div span {
-  display: block;
-}
-.animated-title > div.text-top {
-  border-bottom: 1vmin solid #000;
-  top: 0;
-}
-.animated-title > div.text-top div {
-  animation: showTopText 1s;
-  animation-delay: 1s;
-  animation-fill-mode: forwards;
-  bottom: 0;
-  transform: translate(0, 100%);
-}
-.animated-title > div.text-top div span:first-child {
-  color: #f3f0f6;
-}
-.animated-title > div.text-bottom {
-  bottom: 0;
-}
-.animated-title > div.text-bottom div {
-  animation: showBottomText 0.5s;
-  animation-delay: 1.75s;
-  animation-fill-mode: forwards;
-  top: 0;
-  transform: translate(0, -100%);
-} */
-
-
-/* .hero {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 5px 20px;
-  min-height: 100vh;
-  background-color: #f9f9f9;
-  text-align: center;
-}
-
-.hero-content h1 {
-  font-size: 2.5rem;
-  margin-bottom: 16px;
-  color: #333;
-}
-
-.hero-content p {
-  font-size: 1.2rem;
-  color: #555;
-  max-width: 600px;
-  margin: 0 auto 30px;
-}
-
-.hero-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-  justify-content: center;
-}
-
-.btn {
-  padding: 12px 24px;
-  border: none;
-  text-decoration: none;
-  font-weight: 600;
-  border-radius: 6px;
-  transition: background-color 0.3s ease;
-}
-
-.primary {
-  background-color: #007bff;
-  color: white;
-}
-
-.primary:hover {
-  background-color: #0056b3;
-}
-
-.secondary {
-  background-color: #e2e6ea;
-  color: #333;
-}
-
-.secondary:hover {
-  background-color: #cfd4d9;
-}
-
-@media (max-width: 600px) {
-  .hero-content h1 {
-    font-size: 2rem;
-  }
-
-  .hero-content p {
-    font-size: 1rem;
-  }
-} */
-
-
 /* General Reset */
 body, html {
   margin: 0;
@@ -160,7 +9,9 @@ body, html {
 .hero {
   position: relative;
   min-height: 100vh;
-  background: linear-gradient(to right, #4e54c8, #8f94fb);
+  /* background: linear-gradient(to right, #4e54c8, #8f94fb); */
+  background-color: var(--bgg-color);
+  color: var(--text-color);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -168,6 +19,7 @@ body, html {
   color: white;
   padding: 0 20px;
   overflow: hidden;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .hero-overlay {
@@ -190,7 +42,8 @@ body, html {
 .hero-content p {
   font-size: 1.25rem;
   margin-bottom: 32px;
-  color: #e0e0e0;
+  /* color: #e0e0e0; */
+  color: var(--text-color);
 }
 
 .hero-buttons {
@@ -202,6 +55,7 @@ body, html {
 
 .btn {
   padding: 14px 28px;
+  background-color: var(--accent-color);
   font-size: 1rem;
   font-weight: 600;
   border: none;
@@ -217,7 +71,8 @@ body, html {
 }
 
 .primary:hover {
-  background-color: #e2e2e2;
+  /* background-color: #e2e2e2; */
+  background-color: var(--hover-color);
 }
 
 .secondary {
@@ -228,6 +83,22 @@ body, html {
 
 .secondary:hover {
   background-color: rgba(255,255,255,0.1);
+}
+
+.highlight {
+  /* color: var(--accent-color); */
+  background: linear-gradient(to right,#ff1493, #8a2be2);
+  color: transparent;
+  font-weight: bold;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.typewriter-text {
+  font-size: 4rem;
+  color: var(--text-color);
+  margin-top: 10px;
+  font-weight: 500;
+  min-height: 40px;
 }
 
 /* Animations */

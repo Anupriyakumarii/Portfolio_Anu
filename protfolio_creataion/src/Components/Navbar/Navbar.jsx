@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Navbar.css";
 import { FaMoon, FaSun } from "react-icons/fa";
-import logo from "../../assets/logo.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -41,10 +40,10 @@ const Navbar = () => {
         {/* <img src={logo} className="logo" height={60}></img> */}
         <div className={`nav-links ${isOpen ? "open" : ""}`}>
           <a href="#home">Home</a>
-          <a href="#about">About</a>
-          <a href="#projects">Experience</a>
-          <a href="#about">Projects</a>
-          <a href="#contact">Contact</a>
+          <a href="#About">About</a>
+          <a href="#Experience">Experience</a>
+          <a href="#Project">Projects</a>
+          <a href="#Contact">Contact</a>
           <button className="theme-toggle" onClick={toggleTheme}>
             {theme === "light" ? <FaMoon /> : <FaSun />}
           </button>

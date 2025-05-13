@@ -5,11 +5,14 @@
   font-size:50px;
   font-weight:1000;
 } */
+ .App{
+  background-color: var(--bgg-color);
+ }
  .heading{
   align-items: center;
   padding-left: 400px;
- }
-.glitch{
+ } 
+ .glitch{
   position: relative;
     text-transform: uppercase;
     text-shadow: -15px 5px 20px #4f05a2;
@@ -24,3 +27,4 @@
 .glitch:hover {
   text-shadow: -16px 6px 15px #ac6c12;
 }
+

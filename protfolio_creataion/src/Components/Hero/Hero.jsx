@@ -1,41 +1,50 @@
 import "./Hero.css";
+import { Typewriter } from "react-simple-typewriter";
+import { useState } from "react";
 
 const Hero = () => {
   return (
-    // <div className="hero">
-    //   <h1 className="intro">Hey, </h1>
-    //   <p className="intro">I am Anupriya Kumari</p>
-    //   <h1 className="profession">Frontend Developer</h1>
-    //   {/* <p className="about">
-    //     I am Frontend Developer with 2 years of Experience.
-    //   </p> */}
-    // </div>
-    // <div className="animated-title">
-    //   <div className="text-top">
-    //     <div>
-    //       <span>Hey,</span>
-    //       <span>I am Anupriya Kumari</span>
-    //     </div>
-    //   </div>
-    //   <div className="text-bottom">
-    //     <div>Frontend Developer</div>
-    //   </div>
-    // </div>
     <>
-      <section className="hero">
+      <section className="hero" id="home">
         <div className="hero-content">
-          <h1>Hi, I'm Anupriya</h1>
-          <p>I build beautiful and responsive web interfaces with React.</p>
-          <p>
-            Frontend Developer crafting smooth and responsive user experiences
-            with React.
+          <h1>
+            Hi, I'm <span className="highlight">Anupriya Kumari</span>{" "}
+            <span role="img" aria-label="wave">
+              👋
+            </span>
+          </h1>
+
+          <h2 className="typewriter-text">
+            <Typewriter
+              words={[
+                "Frontend Developer.",
+                "React Enthusiast.",
+                "UI/UX Focused.",
+              ]}
+              loop={0} // 0 = infinite
+              cursor
+              cursorStyle="|"
+              typeSpeed={70}
+              deleteSpeed={50}
+              delaySpeed={1500}
+            />
+          </h2>
+          <p className="description">
+            I build sleek, responsive web interfaces with React — blending clean
+            design, accessibility, and performance for modern user experiences.
           </p>
+
           <div className="hero-buttons">
-            <a href="#projects" className="btn primary">
-              View My Work
+            <a
+              href="https://drive.google.com/file/d/13ooQd5rhtpitE_aIKfsL6avkAgh5qYkD/view?usp=sharing"
+              download="Anupriya_Resume.pdf"
+              target="_blank"
+              className="btn primary"
+            >
+              Download Resume
             </a>
             <a href="#contact" className="btn secondary">
-              Contact Me
+              Let's Connect
             </a>
           </div>
         </div>
